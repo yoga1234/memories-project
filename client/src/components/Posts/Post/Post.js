@@ -45,12 +45,20 @@ const Post = ({ post }) => {
         </Typography>
       </CardContent>
       <CardActions className={classes.cardActions}>
-        <Button size="small" color="primary" onClick={() => console.log('test')}>
+        <Button
+          size="small"
+          color="primary"
+          onClick={() => console.log("test")}
+        >
           <ThumbUpAltIcon fontSize="small" />
           Like
           {post.likeCount}
         </Button>
-        <Button size="small" color="primary" onClick={() => console.log('test')}>
+        <Button
+          size="small"
+          color="primary"
+          onClick={() => console.log("test")}
+        >
           <DeleteIcon fontSize="small" />
           Delete
         </Button>
